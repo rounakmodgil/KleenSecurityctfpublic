@@ -1,0 +1,50 @@
+:root {
+  --primary: #fff;
+  --secondary: #ff4d15;
+  --dark: #1d1d1d;
+}
+.individuals {
+  padding-top: 70px;
+  background-color: var(--dark);
+  height: 800px;
+  width: 100%;
+}
+.title {
+  display: flex;
+  justify-content: center;
+  padding: 20px 0 40px 0;
+}
+.home-title {
+  text-align: center;
+}
+.title-text {
+  border-top: 1px solid gray;
+  padding-top: 70px;
+  font-family: sans-serif;
+  font-weight: 100;
+  font-size: 35px;
+  color: var(--secondary);
+  margin-bottom: -20px;
+}
+.cardcontainer {
+  padding-top: 30px;
+}
+.cardcontainerrow1 {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.cardcontainerrow2 {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+@media screen and (max-width: 1000px) {
+  .individuals {
+    padding-top: 0px;
+    background-color: var(--dark);
+    height: 1200px;
+    width: 100%;
+  }
+}

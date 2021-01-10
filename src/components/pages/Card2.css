@@ -1,0 +1,22 @@
+.uni-comp-card {
+  display: flex;
+  margin-right: 0px;
+  margin-bottom: 50px;
+  width: 250px;
+}
+.card-text {
+  color: white;
+}
+.card-title {
+  font-size: 13px;
+  padding-bottom: 10px;
+}
+.image-wrapper {
+  text-align: center;
+
+  margin-right: -20px;
+}
+.card-desc {
+  font-size: 10px;
+  max-width: 180px;
+}

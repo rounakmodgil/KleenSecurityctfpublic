@@ -1,0 +1,27 @@
+.home-section {
+  margin-top: -40px;
+  display: flex;
+  background-image: url("./images/background.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.fin-home {
+  justify-content: center;
+  align-items: center;
+  margin-top: 150px;
+}
+
+.img-home {
+  flex: 1;
+  flex-shrink: inherit;
+  margin-left: 5px;
+}
+
+.logo-home {
+  margin-top: 300px;
+}

@@ -1,0 +1,36 @@
+:root {
+  --primary: #fff;
+  --secondary: #ff4d15;
+  --dark: #1d1d1d;
+}
+
+.background {
+  background-color: var(--dark);
+  height: 600px;
+  width: 100%;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+}
+.darkcontainer {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #171717;
+  padding: 70px 0;
+}
+@media screen and (max-width: 1000px) {
+  .darkcontainer {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #171717;
+    padding: 40px 0;
+  }
+  .background {
+    background-color: var(--dark);
+    height: 400px;
+    width: 100%;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+  }
+}
