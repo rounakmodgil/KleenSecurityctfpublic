@@ -1,0 +1,112 @@
+@font-face {
+  src: url("./assets/BebasNeue-Bold.ttf");
+  font-family: bebasneue-bold;
+}
+@font-face {
+  src: url("./assets/Poppins-Regular.ttf");
+  font-family: poppins-regular;
+}
+@font-face {
+  src: url("./assets/Montserrat-Regular.ttf");
+  font-family: montserrat-regular;
+}
+
+.ctfpublic-help-font1 {
+  font-family: bebasneue-bold;
+}
+
+.ctfpublic-help-font2 {
+  font-family: poppins-regular;
+}
+
+.ctfpublic-help-font3 {
+  font-family: montserrat-regular;
+}
+
+.ctfpublic-help-maincontainer {
+  margin: 20px;
+  margin-right: 50px;
+  margin-left: 50px;
+  margin-top: 50px;
+}
+
+.ctfpublic-help-container {
+  display: flex;
+  flex-direction: row;
+  background-color: #2d2d2d;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.ctfpublic-help-heading {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.ctfpublic-help-text {
+  margin-bottom: 30px;
+  max-width: 300px;
+  font-size: 15px;
+  line-height: 18px;
+  color: #a7a7a7;
+}
+
+.ctfpublic-help-email {
+  display: flex;
+  background-color: #ff4d15;
+  font-size: 18px;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.ctfpublic-help-emailimg {
+  margin-right: 10px;
+}
+
+@media screen and (max-width: 720px) {
+  .ctfpublic-help-image {
+    height: 300px;
+    width: 300px;
+  }
+  .ctfpublic-help-maincontainer {
+    margin: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 50px;
+  }
+  .ctfpublic-help-heading {
+    font-size: 20px;
+  }
+
+  .ctfpublic-help-emailtext {
+    font-size: 12px;
+  }
+
+  .ctfpublic-help-text {
+    max-width: 200px;
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .ctfpublic-help-image {
+    height: 150px;
+    width: 150px;
+  }
+
+  .ctfpublic-help-heading {
+    font-size: 16px;
+  }
+
+  .ctfpublic-help-text {
+    max-width: 150px;
+    font-size: 10px;
+  }
+  .ctfpublic-help-emailimg {
+    width: 18px;
+    height: 14px;
+  }
+}

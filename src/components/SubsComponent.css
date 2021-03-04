@@ -1,0 +1,75 @@
+@font-face {
+  src: url("./assets/BebasNeue-Bold.ttf");
+  font-family: bebasneue-bold;
+}
+@font-face {
+  src: url("./assets/Poppins-Regular.ttf");
+  font-family: poppins-regular;
+}
+@font-face {
+  src: url("./assets/Montserrat-Regular.ttf");
+  font-family: montserrat-regular;
+}
+
+.ctfpublic-subscomponent-font1 {
+  font-family: bebasneue-bold;
+}
+
+.ctfpublic-subscomponent-font2 {
+  font-family: poppins-regular;
+}
+
+.ctfpublic-subscomponent-font3 {
+  font-family: montserrat-regular;
+}
+
+.subscomponent-maincontainer {
+  width: 270px;
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+  text-align: center;
+  background-color: #2d2d2d;
+  overflow: visible;
+  border-radius: 5px;
+}
+
+.subscomponent-name {
+  font-size: 30px;
+  padding: 100px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 5px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: #ff4d15;
+}
+
+.subscomponent-price {
+  border: 1px solid #ff4d15;
+  color: #ff4d15;
+  height: 140px;
+  width: 140px;
+  border-radius: 50%;
+  font-size: 28px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.subscomponent-text {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.subscomponent-sub {
+  margin-top: 50px;
+  margin-bottom: 20px;
+  padding: 10px 20px;
+  background-color: #ff4d15;
+  font-size: 24px;
+  border-radius: 5px;
+  cursor: pointer;
+}

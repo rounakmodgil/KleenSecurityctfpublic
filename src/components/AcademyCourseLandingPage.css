@@ -1,0 +1,92 @@
+.academy-landing-maincontainer {
+  background-color: #000000;
+}
+
+.academy-landing-container {
+  background-image: url("./images/academybackground.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 70vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.academy-login-container {
+  background-color: rgba(0, 0, 0, 0.9);
+  padding: 15px;
+  margin: 15px;
+}
+
+.academy-login-header {
+  padding: 15px;
+  font-size: 40px;
+  color: #ff4d15;
+}
+
+.academy-login-text {
+  padding: 15px;
+  padding-top: 0px;
+  font-size: 18px;
+  color: #ffffff;
+  max-width: 400px;
+}
+.academy-signup-container {
+  border: 1px solid #ff4d15;
+  border-radius: 5px;
+  color: #ff4d15;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.academy-signup-container:hover {
+  background-color: #ff4d15;
+  color: #ffffff;
+  transition: 0.3s;
+}
+
+.academy-des {
+  padding-top: 15px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 0.5px solid rgba(255, 255, 255, 0.5);
+  padding-bottom: 25px;
+  margin-bottom: 25px;
+}
+
+.academy-des-container {
+  display: flex;
+}
+
+.academy-des-textcontainer {
+  padding-left: 15px;
+  padding-top: 5px;
+}
+
+.academy-des-heading {
+  font-size: 14px;
+  color: #ff4d15;
+}
+
+.academy-des-text {
+  font-size: 12px;
+  color: #ffffff;
+}
+
+.academy-courses-heading {
+  margin-top: 100px;
+  font-size: 20px;
+  color: #ff4d15;
+  text-align: center;
+}
+
+.academy-courses-container {
+  margin-top: 50px;
+}
+
+.academy-explore-container {
+  display: flex;
+  justify-content: center;
+  color: #a7a7a7;
+}

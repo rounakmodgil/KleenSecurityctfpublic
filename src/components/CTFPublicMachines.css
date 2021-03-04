@@ -1,0 +1,89 @@
+@font-face {
+  src: url("./assets/BebasNeue-Bold.ttf");
+  font-family: bebasneue-bold;
+}
+@font-face {
+  src: url("./assets/Poppins-Regular.ttf");
+  font-family: poppins-regular;
+}
+@font-face {
+  src: url("./assets/Montserrat-Regular.ttf");
+  font-family: montserrat-regular;
+}
+
+.ctfpublic-machines-font1 {
+  font-family: bebasneue-bold;
+}
+
+.ctfpublic-machines-font2 {
+  font-family: poppins-regular;
+}
+
+.ctfpublic-machines-font3 {
+  font-family: montserrat-regular;
+}
+
+.ctfpublic-machines-maincontainer {
+  margin: 20px;
+  margin-right: 50px;
+  margin-left: 50px;
+  margin-top: 30px;
+}
+
+.ctfpublic-machines-headercontainer {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 25px;
+}
+
+.ctfpublic-machines-header {
+  font-size: 24px;
+  margin-right: 40px;
+  cursor: pointer;
+}
+
+.ctfpublic-machines-actiontext {
+  font-size: 12px;
+  padding: 3px 10px;
+  border-radius: 5px;
+  border: 1px solid #ff4d15;
+  cursor: pointer;
+}
+.ctfpublic-machines-actioncontainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+@media screen and (max-width: 720px) {
+  #participated {
+    font-size: 14px;
+  }
+
+  .ctfpublic-machines-actiontext {
+    font-size: 10px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    padding: 3px 7px;
+  }
+
+  .ctfpublic-machines-maincontainer {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+
+  .ctfpublic-machines-header {
+    font-size: 18px;
+    margin-right: 30px;
+  }
+  .ctfpublic-machines-actioncontainer {
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .ctfpublic-machines-header {
+    font-size: 14px;
+    margin-right: 20px;
+  }
+}

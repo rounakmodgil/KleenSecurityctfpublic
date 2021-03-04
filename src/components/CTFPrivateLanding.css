@@ -1,0 +1,47 @@
+.ctfprivatelanding-maincontainer {
+  background-color: #000000;
+  color: #ffffff;
+  padding-left: 80px;
+  padding-top: 80px;
+  height: 100vh;
+}
+
+.ctfprivatelanding-heading {
+  max-width: 320px;
+}
+
+.ctfprivatelanding-joinnow-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.ctfprivatelanding-joinnow-container2 {
+  margin-top: 100px;
+  max-width: 300px;
+  margin-right: 80px;
+}
+
+.ctfprivatelanding-description {
+  margin-top: 50px;
+  color: #a7a7a7;
+}
+
+.ctfprivatelanding-joinnow {
+  margin-top: 50px;
+
+  display: flex;
+}
+
+.ctfprivatelanding-joinnow-text {
+  padding: 8px 20px;
+  border: 1px solid #ff4d15;
+  border-radius: 5px;
+  cursor: pointer;
+  background: linear-gradient(to left, #000000 50%, #ff4d15 50%) right;
+  background-size: 200%;
+  transition: 0.5s ease-out;
+}
+
+.ctfprivatelanding-joinnow-text:hover {
+  background-position: left;
+}

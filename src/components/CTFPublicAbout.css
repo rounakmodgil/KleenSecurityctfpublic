@@ -1,0 +1,120 @@
+@font-face {
+  src: url("./assets/BebasNeue-Bold.ttf");
+  font-family: bebasneue-bold;
+}
+@font-face {
+  src: url("./assets/Poppins-Regular.ttf");
+  font-family: poppins-regular;
+}
+@font-face {
+  src: url("./assets/Montserrat-Regular.ttf");
+  font-family: montserrat-regular;
+}
+
+.ctfpublic-about-font1 {
+  font-family: bebasneue-bold;
+}
+
+.ctfpublic-about-font2 {
+  font-family: poppins-regular;
+}
+
+.ctfpublic-about-font3 {
+  font-family: montserrat-regular;
+}
+
+.ctfpublic-about-maincontainer {
+  margin: 20px;
+  margin-right: 0px;
+  margin-left: 50px;
+  margin-top: 10px;
+}
+
+.ctfpublic-about-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.ctfpublic-about-heading {
+  font-size: 36px;
+  border-bottom: 1px solid #ff4d15;
+  margin-bottom: 25px;
+  margin-top: 100px;
+  width: 180px;
+}
+
+.ctfpublic-about-text {
+  font-size: 15px;
+  max-width: 300px;
+  color: #a7a7a7;
+  margin-bottom: 25px;
+}
+
+.ctfpublic-about-learnmore {
+  font-size: 18px;
+  background-color: #ff4d15;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 40px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.ctfpublic-about-imgcontainer {
+  background-color: #a6320e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.ctfpublic-about-text2 {
+  font-size: 12px;
+  max-width: 220px;
+  color: #a7a7a7;
+  margin-bottom: 25px;
+}
+
+.ctfpublic-about-container3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.ctfpublic-about-container2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 35px;
+}
+
+@media screen and (max-width: 720px) {
+  .ctfpublic-about-maincontainer {
+    margin: 20px;
+    margin-right: 0px;
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+
+  .ctfpublic-about-container2 {
+    flex-wrap: wrap;
+  }
+  .ctfpublic-about-backimg {
+    height: 300px;
+    width: 300px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .ctfpublic-about-backimg {
+    height: 170px;
+    width: 170px;
+  }
+}

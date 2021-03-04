@@ -1,0 +1,89 @@
+.animated-page-container {
+  width: 100%;
+  background-color: #000000;
+}
+
+.animated-page-title-container {
+  padding: 120px 50px;
+}
+
+.animated-page-title {
+  margin: 0 auto;
+  text-align: center;
+  color: #ff4d15;
+  font-size: 40px;
+  max-width: 500px;
+  margin-bottom: 25px;
+}
+
+.animated-page-subtitle {
+  margin: 0 auto;
+  text-align: center;
+  font-size: 16px;
+  color: #ffffff;
+  max-width: 300px;
+}
+
+.animated-container {
+  color: #ffffff;
+  font-size: 20px;
+
+  display: inline;
+  position: relative;
+  animation-name: moveText;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+}
+
+.animated-container-background {
+  width: 100%;
+  background-image: url("./images/backgroundline.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #000000;
+}
+
+.animated-page-parts-container {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 15px;
+}
+
+.animated-page-parts-text {
+  color: #ffffff;
+  font-size: 20px;
+}
+
+.animated-page-parts-large {
+  font-size: 72px;
+  color: #686868;
+}
+
+@keyframes moveText {
+  0% {
+    left: 0%;
+  }
+  14% {
+    left: 10%;
+  }
+  29% {
+    left: 18%;
+  }
+  43% {
+    left: 40%;
+  }
+  57% {
+    left: 48%;
+  }
+  71% {
+    left: 75%;
+  }
+
+  85% {
+    left: 83%;
+  }
+  100% {
+    left: 97%;
+  }
+}

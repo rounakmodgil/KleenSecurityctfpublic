@@ -25,3 +25,9 @@
 .logo-home {
   margin-top: 300px;
 }
+
+@media screen and(max-width:650px) {
+  .img-home {
+    width: 100px;
+  }
+}

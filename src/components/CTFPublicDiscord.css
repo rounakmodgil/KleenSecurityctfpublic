@@ -1,0 +1,55 @@
+@font-face {
+  src: url("./assets/BebasNeue-Bold.ttf");
+  font-family: bebasneue-bold;
+}
+@font-face {
+  src: url("./assets/Poppins-Regular.ttf");
+  font-family: poppins-regular;
+}
+
+.ctfpublic-discord-font1 {
+  font-family: bebasneue-bold;
+}
+
+.ctfpublic-discord-font2 {
+  font-family: poppins-regular;
+}
+
+.ctfpublic-discord-maincontainer {
+  margin: 20px;
+  margin-right: 35px;
+  margin-left: 35px;
+}
+
+.ctfpublic-discord-heading {
+  font-size: 28px;
+}
+
+.ctfpublic-discord-heading2 {
+  color: #ff4d15;
+}
+
+.ctfpublic-discord-imgcontainer {
+  margin-top: 100px;
+  text-align: center;
+}
+
+.ctfpublic-discord-description {
+  margin-top: 35px;
+  font-size: 16px;
+  line-height: 19px;
+  color: #a7a7a7;
+}
+
+.ctfpublic-discord-buttoncontainer {
+  padding: 8px 40px;
+  border-radius: 5px;
+  border: 1px solid #4463c9;
+  margin-top: 50px;
+  cursor: pointer;
+}
+
+.ctfpublic-discord-buttoncontainer:hover {
+  background-color: #4463c9;
+  transition: 0.3s ease-out;
+}

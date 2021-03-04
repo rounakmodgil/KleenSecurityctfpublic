@@ -1,5 +1,5 @@
 {
-  "homepage":"https://nithinsai263.github.io/kleensecurity_react",
+  "homepage": "https://nithinsai263.github.io/kleensecurity_react",
   "name": "kleen",
   "version": "0.1.0",
   "private": true,
@@ -8,16 +8,18 @@
     "@testing-library/react": "^11.2.2",
     "@testing-library/user-event": "^12.6.0",
     "react": "^17.0.1",
+    "react-datepicker": "^3.6.0",
     "react-dom": "^17.0.1",
     "react-icons": "^4.1.0",
+    "react-responsive": "^8.2.0",
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.1",
     "react-scroll": "^1.8.1",
     "web-vitals": "^0.2.4"
   },
   "scripts": {
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

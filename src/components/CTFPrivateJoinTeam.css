@@ -1,0 +1,59 @@
+.ctfprivatejointeam-maincontainer {
+  background-color: #000000;
+  color: #ffffff;
+  height: 100vh;
+}
+
+.ctfprivatejointeam-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 40px;
+}
+
+.ctfprivatejointeam-subcontainer {
+  background-color: #121212;
+  padding: 30px 15px;
+  margin-top: 20px;
+
+  border-top: 1px solid #ff4d15;
+}
+
+.ctfprivatejointeam-imagecontainer {
+  margin-bottom: 30px;
+}
+.ctfprivatejointeam-debug {
+  display: flex;
+  justify-content: center;
+}
+
+.ctfprivatejointeam-description {
+  max-width: 350px;
+  font-size: 15px;
+  color: #a7a7a7;
+}
+
+.ctfprivatejointeam-heading {
+  font-size: 28px;
+  font-weight: 500;
+  margin-bottom: 60px;
+}
+
+.ctfprivatejointeam-joinnow {
+  margin-top: 50px;
+  display: flex;
+}
+
+.ctfprivatejointeam-joinnow-text {
+  padding: 8px 120px;
+  border: 1.5px solid #ff4d15;
+  border-radius: 5px;
+  cursor: pointer;
+  background: linear-gradient(to left, #000000 50%, #ff4d15 50%) right;
+  background-size: 200%;
+  transition: 0.5s ease-out;
+}
+
+.ctfprivatejointeam-joinnow-text:hover {
+  background-position: left;
+}

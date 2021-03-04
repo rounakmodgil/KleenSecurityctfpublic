@@ -1,0 +1,95 @@
+@font-face {
+  src: url("./assets/BebasNeue-Bold.ttf");
+  font-family: bebasneue-bold;
+}
+@font-face {
+  src: url("./assets/Poppins-Regular.ttf");
+  font-family: poppins-regular;
+}
+@font-face {
+  src: url("./assets/Montserrat-Regular.ttf");
+  font-family: montserrat-regular;
+}
+
+.ctfpublic-rank-font1 {
+  font-family: bebasneue-bold;
+}
+
+.ctfpublic-rank-font2 {
+  font-family: poppins-regular;
+}
+
+.ctfpublic-rank-font3 {
+  font-family: montserrat-regular;
+}
+
+.ctfpublic-rank-maincontainer {
+  margin: 20px;
+  margin-right: 35px;
+  margin-left: 35px;
+}
+
+.ctfpublic-rank-periodcontainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.ctfpublic-rank-period {
+  padding: 8px 15px;
+  background-color: #ff4d15;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#rankings {
+  font-family: poppins-regular;
+  font-size: 18px;
+  border-collapse: separate;
+  border-spacing: 0 0.5em;
+  width: 100%;
+}
+
+#rankings td,
+#rankings th {
+  padding: 15px 8px;
+  font-family: poppins-regular;
+}
+
+#rankings tr:nth-child(2) {
+  background-color: rgba(255, 77, 21, 0.8);
+}
+#rankings tr:nth-child(3) {
+  background-color: rgba(255, 77, 21, 0.6);
+}
+
+#rankings tr:nth-child(4) {
+  background-color: rgba(255, 77, 21, 0.4);
+}
+
+#rankings tr:nth-child(1):hover {
+  background-color: #000000;
+}
+
+#rankings tr:hover {
+  background-color: #ff4d15;
+  transition: 0.3s ease-out;
+}
+
+#rankings th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+
+  color: white;
+}
+
+@media screen and (max-width: 720px) {
+  #rankings {
+    font-size: 14px;
+  }
+  .ctfpublic-rank-maincontainer {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+}

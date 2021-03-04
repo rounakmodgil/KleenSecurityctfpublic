@@ -6,15 +6,16 @@ import Signup from "./components/Signup";
 import Login from "./components/Login";
 import "./App.css";
 
-const PageNotFound = () => <div>404! not found</div>;
+const PageNotFound = () => <div>404....not found</div>;
 
 function App() {
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <Switch>
-        <Route path="/" exact component={Main} />
-        <Route path="/joinnow" component={Signup} />
-        <Route path="/login" component={Login} />
+        <Route path='/' exact component={Main} />
+        <Route path='/joinnow' component={Signup} />
+        <Route path='/login' component={Login} />
+        <Route component={PageNotFound} />
       </Switch>
     </Router>
   );

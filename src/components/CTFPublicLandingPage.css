@@ -1,0 +1,55 @@
+@font-face {
+  src: url("./assets/Poppins-Regular.ttf");
+  font-family: poppins-regular;
+}
+@font-face {
+  src: url("./assets/Montserrat-Regular.ttf");
+  font-family: montserrat-regular;
+}
+
+.ctfpublic-landing-font1 {
+  font-family: montserrat-regular;
+  font-size: 14px;
+}
+
+.ctfpublic-landing-font2 {
+  font-family: poppins-regular;
+}
+
+.ctfpublic-landing-maincontainer {
+  background-color: #000000;
+  color: #ffffff;
+  min-height: 100vh;
+  padding-top: 20px;
+}
+
+.ctfpublic-landing-container {
+  display: flex;
+  flex-direction: row;
+}
+.ctfpublic-landing-menu {
+  flex: 2;
+}
+
+.ctfpublic-landing-content {
+  flex: 10;
+}
+
+.ctfpublic-landing-menu-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 18px;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  padding-left: 15px;
+  padding-right: 30px;
+  margin-left: 10px;
+  border-left: 1px solid #ff4d15;
+  align-items: center;
+  cursor: pointer;
+}
+
+.ctfpublic-landing-menubottom {
+  margin-top: 100px;
+}

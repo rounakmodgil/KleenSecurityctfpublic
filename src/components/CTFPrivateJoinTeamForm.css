@@ -1,0 +1,93 @@
+.jointeam-maincontainer {
+  background-color: #000000;
+  color: #ffffff;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.jointeam-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #1d1d1d;
+  padding: 30px 70px;
+}
+.jointeam-heading {
+  font-size: 28px;
+  margin-bottom: 15px;
+}
+
+.jointeam-subheading {
+  font-size: 16px;
+  color: #c4c4c4;
+  margin-bottom: 25px;
+}
+
+input#jointeamform {
+  width: 100%;
+  padding: 12px 20px;
+  margin-bottom: 25px;
+  display: inline-block;
+  border: 0px;
+  border-bottom: 1px solid #c4c4c4;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.jointeam-submit {
+  text-align: center;
+  width: 100%;
+  background-color: #ff4d15;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.jointeam-submit:hover {
+  background-color: #ff4d00;
+  transition: 0.3s;
+}
+
+#float-label {
+  display: flex;
+  flex-direction: column;
+  min-width: 350px;
+  position: relative;
+}
+
+#float-label input {
+  width: 100%;
+  height: 56px;
+  padding: 14px 16px 0 10px;
+  outline: 0;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background: #000000;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+
+#float-label label {
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0 12px;
+  color: #999;
+  pointer-events: none;
+  position: absolute;
+  transform: translate(0, 26px) scale(1);
+  transform-origin: top left;
+  transition: all 0.2s ease-out;
+}
+
+#float-label:focus-within label {
+  transform: translate(0, 12px) scale(0.75);
+}
+
+#float-label .Active {
+  transform: translate(0, 12px) scale(0.75);
+}

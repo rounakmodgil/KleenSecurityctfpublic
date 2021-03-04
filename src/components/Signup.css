@@ -1,6 +1,5 @@
 .contact-section {
   background-color: #1d1d1d;
-  height: 800px;
 }
 
 .login-container {
@@ -43,8 +42,9 @@
   cursor: pointer;
 }
 
-.login-container-2 {
+.signup-container-2 {
   display: flex;
+  flex-wrap: wrap;
   color: #fff;
   background-color: #232323;
   border-radius: 20px;
@@ -100,7 +100,6 @@ input[type="submit"] {
   border: 1px solid #ff4d15;
   padding: 5px 15px;
   border-radius: 3px;
-  margin-top: 30px;
   cursor: pointer;
 }
 
@@ -156,4 +155,9 @@ input[type="checkbox"]:checked:after {
   position: absolute;
   top: 2px;
   left: 6px;
+}
+@media screen and (max-width: 1000px) {
+  .signup-container-2 {
+    display: block;
+  }
 }

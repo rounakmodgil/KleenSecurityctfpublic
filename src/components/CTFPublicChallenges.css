@@ -1,0 +1,98 @@
+@font-face {
+  src: url("./assets/BebasNeue-Bold.ttf");
+  font-family: bebasneue-bold;
+}
+@font-face {
+  src: url("./assets/Poppins-Regular.ttf");
+  font-family: poppins-regular;
+}
+@font-face {
+  src: url("./assets/Montserrat-Regular.ttf");
+  font-family: montserrat-regular;
+}
+
+.ctfpublic-challenges-font1 {
+  font-family: bebasneue-bold;
+}
+
+.ctfpublic-challenges-font2 {
+  font-family: poppins-regular;
+}
+
+.ctfpublic-challenges-font3 {
+  font-family: montserrat-regular;
+}
+
+.ctfpublic-challenges-maincontainer {
+  margin: 20px;
+  margin-right: 35px;
+  margin-left: 35px;
+}
+
+.ctfpublic-challenges-headingcontainer {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 35px;
+}
+
+.ctfpublic-challenges-heading {
+  font-size: 24px;
+  padding: 0px 10px;
+  padding-right: 35px;
+  cursor: pointer;
+}
+
+#challenges {
+  font-family: poppins-regular;
+  font-size: 18px;
+  border-collapse: separate;
+  border-spacing: 0 0.5em;
+  width: 100%;
+}
+
+#challenges td,
+#challenges th {
+  font-family: poppins-regular;
+  font-size: 14px;
+  padding: 15px 8px;
+}
+
+#challenges th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+
+  color: white;
+}
+
+#challenges tr:nth-child(odd) {
+  background-color: #292e33;
+}
+
+@media screen and (max-width: 720px) {
+  #challenges {
+    font-size: 14px;
+  }
+
+  .ctfpublic-challenges-maincontainer {
+    margin: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+
+  .ctfpublic-challenges-heading {
+    font-size: 18px;
+
+    padding-right: 20px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .ctfpublic-challenges-heading {
+    font-size: 16px;
+    padding-right: 10px;
+  }
+  #challenges {
+    font-size: 10px;
+  }
+}

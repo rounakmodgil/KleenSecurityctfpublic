@@ -1,0 +1,100 @@
+.ctfprivateform-maincontainer {
+  background-color: #000000;
+  color: #ffffff;
+  padding-left: 15%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.ctfprivateform-container {
+  background-color: #121212;
+  width: 80%;
+  background-image: url("./images/ctfform.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 1000px 700px;
+}
+
+.ctfprivateform-padding {
+  padding: 20px 25px;
+}
+
+.ctfprivateform-dropdowncontainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.ctfprivateform-dropdown1 {
+  flex: 1;
+  margin-top: 35px;
+  margin-bottom: 15px;
+}
+
+.ctfprivateform-textcontainer {
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.ctfprivateform-heading {
+  font-size: 18px;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+.ctfprivateform-description {
+  color: #a7a7a7;
+  font-size: 15px;
+}
+
+.ctfprivateform-datetext {
+  margin-right: 30px;
+  font-size: 15px;
+  color: #a7a7a7;
+}
+
+input[type="text"],
+select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border-bottom: 1px solid #c4c4c4;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color: #000000;
+}
+
+input[type="text"]:active {
+  border-bottom: 1px solid #ff4d15;
+  transition: 0.3s;
+}
+
+.ctfprivateform-ctfstyle-container {
+  margin-top: 35px;
+  margin-bottom: 15px;
+}
+
+.ctfprivateform-bottom {
+  margin-top: 35px;
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.ctfprivateform-bottom1 {
+  color: #ff4d15;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.ctfprivateform-bottom2 {
+  color: #ffffff;
+  font-size: 16px;
+  padding: 10px 15px;
+  background-color: #ff4d15;
+  border-radius: 5px;
+  cursor: pointer;
+}

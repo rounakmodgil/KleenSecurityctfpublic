@@ -1,0 +1,73 @@
+@font-face {
+  src: url("./assets/BebasNeue-Bold.ttf");
+  font-family: bebasneue-bold;
+}
+@font-face {
+  src: url("./assets/Poppins-Regular.ttf");
+  font-family: poppins-regular;
+}
+@font-face {
+  src: url("./assets/Montserrat-Regular.ttf");
+  font-family: montserrat-regular;
+}
+
+.ctfpublic-participated-font1 {
+  font-family: bebasneue-bold;
+}
+
+.ctfpublic-participated-font2 {
+  font-family: poppins-regular;
+}
+
+.ctfpublic-participated-font3 {
+  font-family: montserrat-regular;
+}
+
+.ctfpublic-participated-maincontainer {
+  margin: 20px;
+  margin-right: 50px;
+  margin-left: 50px;
+  margin-top: 30px;
+}
+
+#participated {
+  font-family: poppins-regular;
+  font-size: 15px;
+  border-collapse: separate;
+  border-spacing: 0 0.5em;
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+#participated td,
+#participated th {
+  padding: 15px 8px;
+  font-family: poppins-regular;
+}
+
+#participated th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  color: white;
+}
+
+#participated tr:nth-child(1) {
+  background-color: #292e33;
+}
+
+.ctfpublic-participated-heading {
+  font-size: 28px;
+  margin-bottom: 10px;
+  padding-bottom: 5px;
+  width: 130px;
+  border-bottom: 1px solid #ff4d15;
+}
+
+@media screen and (max-width: 720px) {
+  .ctfpublic-participated-maincontainer {
+    margin-right: 0px;
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+}

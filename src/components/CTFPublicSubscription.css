@@ -1,0 +1,15 @@
+.ctfpublic-sub-maincontainer {
+  margin: 20px;
+  margin-right: 35px;
+  margin-left: 35px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 720px) {
+  .ctfpublic-sub-maincontainer {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+}
